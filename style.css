@@ -114,7 +114,7 @@ p.text{
 p.text span{
     color: rgb(158, 248, 158);
 }
-.hwrap {
+/* .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
   background: orangered;
   width : 25%;
@@ -137,4 +137,4 @@ p.text span{
   100% { transform: translate3d(-400%, 0, 0); }
 }
 .hmove { animation: tickerh linear 20s infinite; }
-.hmove:hover { animation-play-state: paused; }
+.hmove:hover { animation-play-state: paused; } */
