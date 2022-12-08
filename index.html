@@ -1,118 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie booking Blackpearl</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Movie Booking</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-    <div class="movie-container">
-        <label> Select a movie:</label>
-        <select id="movie">
-          <option value="150">Geetha Govindam </option>
-          <option value="120">Avatar 2</option>
-          <option value="180">KGF Chapter 2</option>
-          <option value="110">Rowdy hero [Marri]</option>
-        </select>
-      </div>
-  
-      <ul class="showcase">
-        <li>
-          <div class="seat"></div>
-          <small>Available</small>
-        </li>
-        <li>
-          <div class="seat selected"></div>
-          <small>Selected</small>
-        </li>
-        <li>
-          <div class="seat sold"></div>
-          <small>Sold</small>
-        </li>
-      </ul>
-       <div class="hwrap">
-             <div class="hmove">
-                  <div class="hitem">Geeta govindam [9:00 AM] .</div>
-                  <div class="hitem">KGF Chapter 2 [1:00 PM]</div>
-                  <div class="hitem">Avatar 2  [7:00 PM].</div>
-                  <div class="hitem">Rowdy hero  [9:00 PM].</div>
-              </div>
+    <div class="poster border">
+
+        <img src="https://i.pinimg.com/originals/91/1a/2d/911a2db55ff3a1faa44a7e766b9a1b3e.jpg" class="img"
+            width="100px" alt="">
+        <img src="https://moviegalleri.net/wp-content/uploads/2018/06/Vijay-Devarakonda-Rashmika-Mandanna-Geetha-Govindam-First-Look-Poster-HD.jpg"
+            class="img" width="100px" alt="">
+        <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/01/02/Uri--The-Surgical-Strike-movie-release-date-poster-.png?quality=80&zoom=1&ssl=1"
+            class="img" width="100px" alt="">
+
+
+    </div>
+    <div class="main border">
+
+        <div class="mainconatiner border">
+            <label>Select a movie :</label>
+            <select id="movie">
+                <option value="240">Avatar 2</option>
+                <option value="220">Geeta govindam</option>
+                <option value="200">URI</option>
+            </select>
         </div>
-    
-      <div class="container">
-        <div class="screen"></div>
-  
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+
+        <div class="marquee border">
+            <marquee direction="right" scrollamount="3">
+                <label>*Avatar 2--1:00PM *Justice leauge--5:00PM *URI--10:00PM</label>
+            </marquee>
         </div>
-  
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat sold"></div>
-          <div class="seat sold"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+
+        <ul class="top_corner border">
+            <li>
+                <div class="seat "></div>
+                <small>Available </small>
+            </li>
+            <li>
+                <div class="seat selected"></div>
+                <small>Selected</small>
+            </li>
+            <li>
+                <div class="seat sold"></div>
+                <small>Sold</small>
+            </li>
+        </ul>
+
+        <div class="conatiner border">
+            <div class="screen"></div>
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat sold"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat sold"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat sold"></div>
+                <div class="seat sold"></div>
+                <div class="seat sold"></div>
+                <div class="seat "></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat sold"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
         </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat sold"></div>
-          <div class="seat sold"></div>
+        <div class="p">
+
+            <p class="text border">
+                You have selected <span id="count">0</span> seat for price <span id="total">0.</span>
+            </p>
         </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-        </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat sold"></div>
-          <div class="seat sold"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-        </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat sold"></div>
-          <div class="seat sold"></div>
-          <div class="seat sold"></div>
-          <div class="seat"></div>
-        </div>
-      </div>
-  
-      <p class="text">
-        You have selected <span id="count">0</span> seat for a price of RS.<span
-          id="total"
-          >0</span
-        >
-      </p>
-      <script src="script.js"></script>
+    </div>
+    <!-- <div class="side1 border">
+        <img src="/10464189_302985456535142_6683634464999144589_n_1.jpg" class="img" width="100px" alt="">
+        <img src="/10464189_302985456535142_6683634464999144589_n_1.jpg" class="img" width="100px" alt="">
+        <img src="/10464189_302985456535142_6683634464999144589_n_1.jpg" class="img" width="100px" alt="">
+        
+    </div> -->
+    <div class="footer">
+        <p>  Copyright 2022 @Blackpearl Entertainment Pvt. Ltd </p>
+        <p style="width:80%">
+            The content and images used on this site are copyright protected and copyrights vests with the respective
+            owners. The usage of the content and images on this website is intended to promote the works and no
+            endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.
+        </p>
+    </div>
+    <script src="/script.js"></script>
 </body>
+
 </html>
